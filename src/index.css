@@ -5,10 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./Assest/new.avif");
+  /* Weather ui */
+  /* background-image: url("./Assest/new.avif");
   
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
+  /* Weather ui end */  
+  
+  /* calculator  ui */
+  background: rgb(152,152,176);
+background: radial-gradient(circle, rgba(152,152,176,1) 41%, rgba(15,10,28,1) 100%);
+
 }
 
 code {
