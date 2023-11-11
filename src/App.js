@@ -1,18 +1,14 @@
 
+import { Route, Router } from 'react-router-dom';
 import './App.css';
-import Netflix from './Ten_day_challenge/Netflix/Netflix';
-
-// import Weather from './Components/Weather';
-// import Calculator from './Ten_day_challenge/Calculator/Calculator';
+import Home from "./Ten_day_challenge/OneHourChallenge/Home"
+import Main from "./Ten_day_challenge/Pokemon/Components/Main"
 
 function App() {
   return (
-    <div >
-    {/* <Weather/>   */}
-    {/* <Calculator/> */}
-    hii
-    <Netflix/>
-     
+    <div>
+ <Main/>
+ 
     </div>
   );
 }
